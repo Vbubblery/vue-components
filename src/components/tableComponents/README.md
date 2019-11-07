@@ -26,7 +26,7 @@ Vue.use(FlowlityComponentsPlugin);
 Import into your component:
 ```
 import { FlowlityGoodTable } from '@flowlity/vue-components';
-
+import "@flowlity/vue-components/dist/flowlity.css";
 // add to component
 components: {
   FlowlityGoodTable,
