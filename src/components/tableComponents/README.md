@@ -2,7 +2,7 @@
 
 ## Installing
 ```
-touch .npmrc
+touch .npmrc (make sure add .npmrc into the gitignore)
 
 //.npmrc
 //npm.pkg.github.com/:_authToken=<authToken>
