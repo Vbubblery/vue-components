@@ -27,7 +27,7 @@ npm install
 npm run serve
 ```
 
-### Compiles and Publish
+### Compiles and Publish (Do the same as the Project setup in the project which you prepare to use the package.)
 ```
 npm run build
 npm publish

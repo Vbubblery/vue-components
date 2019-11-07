@@ -1,6 +1,6 @@
 {
   "name": "@flowlity/vue-components",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "main": "dist/flowlity.umd.min.js",
   "files": [
     "dist/*",

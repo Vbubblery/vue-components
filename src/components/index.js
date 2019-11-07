@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import FlowlityGoodTable from "./Table.vue";
+import FlowlityGoodTable from "./tableComponents/Table.vue";
 
 const FlowlityComponentsPlugin = {
   install(Vue, options) {

@@ -7,7 +7,7 @@
 </template>
 
 <script>
-import Table from "../components/Table.vue";
+import Table from "../components/tableComponents/Table.vue";
 export default {
   name: "example-table",
   components: {
