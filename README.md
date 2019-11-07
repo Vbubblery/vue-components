@@ -1,34 +1,49 @@
 # vue-components
 
 ## Project setup
+
 ```
-yarn install
+touch .npmrc
+
+//.npmrc
+//npm.pkg.github.com/:_authToken=<authToken>
+@flowlity:registry=https://npm.pkg.github.com/
 ```
 
-### Compiles and hot-reloads for development
+## How to get authToken?
+https://github.com/settings/tokens
+Create a Token with
+
+> all repo options
+
+> {write,read,delete}:packages
+
 ```
-yarn run serve
+npm install
 ```
 
-### Compiles and minifies for production
+### Example
 ```
-yarn run build
+npm run serve
+```
+
+### Compiles and Publish
+```
+npm run build
+npm publish
 ```
 
 ### Run your tests
 ```
-yarn run test
+npm run test
 ```
 
 ### Lints and fixes files
 ```
-yarn run lint
+npm run lint
 ```
 
 ### Run your unit tests
 ```
-yarn run test:unit
+npm run test:unit
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -48,7 +48,7 @@ import { VueGoodTable } from "@flowlity/vue-good-table";
 import "@flowlity/vue-good-table/dist/vue-good-table.css";
 
 export default {
-  name: "table-component",
+  name: "flowlity-good-table",
   components: {
     VueGoodTable
   },

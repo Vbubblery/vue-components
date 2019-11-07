@@ -1,13 +1,16 @@
-import Vue from "vue";
-import Table from "./Table.vue";
+/* eslint-disable no-unused-vars */
+import FlowlityGoodTable from "./Table.vue";
 
-const Components = {
-  Table
-  // import another components here
+const FlowlityComponentsPlugin = {
+  install(Vue, options) {
+    Vue.component(FlowlityGoodTable.name, FlowlityGoodTable);
+  }
 };
 
-Object.keys(Components).forEach(name => {
-  Vue.component(name, Components[name]);
-});
+// Automatic installation if Vue has been added to the global scope.
+if (typeof window !== "undefined" && window.Vue) {
+  window.Vue.use(FlowlityComponentsPlugin);
+}
 
-export default Components;
+export { FlowlityGoodTable };
+export default FlowlityComponentsPlugin;
