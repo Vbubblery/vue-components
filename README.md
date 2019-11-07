@@ -1,5 +1,9 @@
 # vue-components
 
+## Components
+
+[Flowlity Good table](https://github.com/flowlity/vue-components/tree/master/src/components/tableComponents)
+
 ## Project setup
 
 ```
