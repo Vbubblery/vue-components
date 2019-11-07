@@ -34,7 +34,7 @@ components: {
 ```
 
 ### my case
-```javascript
+```html
 <flowlity-good-table
       class="shadow"
       :columns="columns"
