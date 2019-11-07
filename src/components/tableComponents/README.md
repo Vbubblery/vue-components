@@ -16,7 +16,7 @@ npm install --save @flowlity/vue-components
 ```
 
 Import globally in app:
-```
+```javascript
 import FlowlityComponentsPlugin from "@flowlity/vue-components";
 import "@flowlity/vue-components/dist/flowlity.css";
 
@@ -24,7 +24,7 @@ Vue.use(FlowlityComponentsPlugin);
 ```
 
 Import into your component:
-```
+```javascript
 import { FlowlityGoodTable } from '@flowlity/vue-components';
 import "@flowlity/vue-components/dist/flowlity.css";
 // add to component
@@ -34,7 +34,7 @@ components: {
 ```
 
 ### my case
-```
+```javascript
 <flowlity-good-table
       class="shadow"
       :columns="columns"
@@ -79,7 +79,7 @@ components: {
     </flowlity-good-table>
 ```
 
-```
+```javascript
 columns: [
         {
           label: "W28",
