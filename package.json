@@ -1,10 +1,9 @@
 {
   "name": "@flowlity/vue-components",
   "version": "0.1.0",
-  "private": true,
-  "main":"dist/flowlity.common.js",
+  "main": "dist/flowlity.common.js",
   "files": [
-    "dist/*.{js,css}"  
+    "dist/*.{js,css}"
   ],
   "scripts": {
     "serve": "vue-cli-service serve  --open",
@@ -45,5 +44,12 @@
       "vue-cli-service lint",
       "git add"
     ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:flowlity/vue-components.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
